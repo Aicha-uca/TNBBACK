@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import com.example.demo.entity.Taux;
 import com.example.demo.service.TauxService;
 @CrossOrigin("*")
+//restapi
 @RestController
 @RequestMapping("/api/taux")
 public class TauxController {

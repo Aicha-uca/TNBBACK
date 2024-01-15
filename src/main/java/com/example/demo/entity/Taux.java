@@ -13,7 +13,7 @@ public class Taux {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private double montant;
-	
+	//montant
 	@ManyToOne
 	private Category category;
 	
